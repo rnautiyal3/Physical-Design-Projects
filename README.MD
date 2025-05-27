@@ -56,9 +56,6 @@ This project showcases my end-to-end block-level physical design work using Syno
 
 ---
 
-## 🔗 Related Projects
-- [ORCA_TOP_IO (28nm Project)](../ORCA_TOP_IO/README.md)
-- [TCL Scripts Collection](../TCL_Scripts/README.md)
 
 ---
 
