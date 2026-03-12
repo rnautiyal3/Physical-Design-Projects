@@ -12,6 +12,17 @@ This project integrates a PicoRV32 RISC-V CPU with multiple hardware components:
 - Timer peripheral
 - Address decoder bus
 
+## Design Summary
+
+CPU: PicoRV32 (RV32I RISC-V core)
+Technology: SKY130 (130 nm)
+Clock domains: 1
+Clock frequency: 100 MHz
+SRAM macros: 2
+Peripherals: UART, Timer
+Standard cells: ~6900
+Flow: OpenLane RTL → GDS
+
 ## Technology
 
 - PDK: SKY130
