@@ -14,14 +14,16 @@ This project integrates a PicoRV32 RISC-V CPU with multiple hardware components:
 
 ## Design Summary
 
-CPU: PicoRV32 (RV32I RISC-V core)
-Technology: SKY130 (130 nm)
-Clock domains: 1
-Clock frequency: 100 MHz
-SRAM macros: 2
-Peripherals: UART, Timer
-Standard cells: ~6900
-Flow: OpenLane RTL → GDS
+| Parameter | Value |
+|-----------|------|
+| CPU | PicoRV32 (RV32I RISC-V core) |
+| Technology | SKY130 (130 nm) |
+| Clock Domains | 1 |
+| Clock Frequency | 100 MHz |
+| SRAM Macros | 2 |
+| Peripherals | UART, Timer |
+| Standard Cells | ~6900 |
+| Flow | OpenLane RTL → GDS |
 
 ## Technology
 
