@@ -1,0 +1,9 @@
+runs/
+logs/
+reports/
+*.log
+*.rpt
+*.spef
+*.def
+*.gds
+.DS_Store

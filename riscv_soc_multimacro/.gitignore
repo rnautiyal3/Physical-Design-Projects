@@ -1,0 +1,7 @@
+runs/
+*.log
+*.rpt
+*.spef
+*.def
+*.gds
+*.lef

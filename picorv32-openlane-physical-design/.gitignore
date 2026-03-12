@@ -1,0 +1,9 @@
+runs/
+logs/
+tmp/
+*.gds
+*.lef
+*.def
+*.spef
+*.lib
+*.vcd

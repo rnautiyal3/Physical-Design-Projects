@@ -1,0 +1,38 @@
+
+{
+  "DESIGN_NAME": "soc_top",
+
+  "VERILOG_FILES": [
+    "dir::picorv32/picorv32.v",
+    "dir::sram_blackbox.v",
+    "dir::soc_top.v"
+  ],
+"VDD_NETS": ["vccd1"],
+"GND_NETS": ["vssd1"],
+  "PNR_SDC_FILE": "dir::constraint.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraint.sdc",
+
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10.0,
+
+  "ERROR_ON_SYNTH_CHECKS": false,
+
+  "EXTRA_GDS_FILES": [
+    "dir::macros/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
+  ],
+
+  "EXTRA_LEFS": [
+    "dir::macros/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
+  ],
+
+  "MACRO_PLACEMENT_CFG": "dir::macro_placement.cfg",
+"MAGIC_IGNORE_LAYERS": true,
+"PDN_MACRO_CONNECTIONS": [
+  "sram0 vccd1 vssd1 vccd1 vssd1"
+], 
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 1200 1200",
+  "CORE_AREA": "150 150 1050 1050",
+
+  "PL_TARGET_DENSITY_PCT": 65
+}
