@@ -107,6 +107,16 @@ This project demonstrates understanding of:
 
 ---
 
+## Layout
+
+Final layout of the Mini CPU generated after routing using the OpenLane flow.
+
+![Mini CPU Layout](images/layout.png)
+
+## Klayout
+
+![Mini CPU Layout](images/klayout.png)
+
 ## Author
 
 Rahul Nautiyal  
