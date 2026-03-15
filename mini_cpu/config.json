@@ -1,0 +1,18 @@
+{
+    "DESIGN_NAME": "cpu_top",
+    "VERILOG_FILES": [
+        "dir::rtl/cpu_top.v",
+        "dir::rtl/alu.v",
+        "dir::rtl/pipeline_regs.v",
+        "dir::rtl/pc.v",
+        "dir::rtl/regfile.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    "PNR_SDC_FILE": "dir::constraint.sdc",
+    "SIGNOFF_SDC_FILE": "dir::constraint.sdc",
+    "DIE_AREA": [0, 0, 650, 650],
+    "ERROR_ON_XOR_ERROR": true,
+"QUIT_ON_XOR_ERROR": false,
+    "FP_PDN_MULTIPLE_TAPS": true
+}
