@@ -57,7 +57,7 @@ Reducing placement utilization resulted in:
 
 Cells are densely packed which increases routing demand.
 
-![Placement 65](images/placement_util65.png)
+![Placement 65](images/util65.png)
 
 ---
 
@@ -65,7 +65,7 @@ Cells are densely packed which increases routing demand.
 
 Cells are more evenly distributed, allowing shorter routing paths.
 
-![Placement 40](images/placement_util40.png)
+![Placement 40](images/util40.png)
 
 ---
 
