@@ -1,3 +1,28 @@
+| Metric | Before Pipelining | After Pipelining |
+|------|------|------|
+| Setup Worst Slack | -9.83 ns | +2.47 ns |
+| Setup Violations | 204 | 0 |
+| Hold Worst Slack | 0.77 ns | 0.29 ns |
+| Hold Violations | 0 | 0 |
+| Max Slew Violations | 5 | 0 |
+| Max Cap Violations | 0 | 0 |
+| DRC | Passed | Passed |
+| LVS | Passed | Passed |
+
+Timing closure was achieved by introducing pipeline registers
+between arithmetic stages. This reduced the critical path delay
+from approximately 14 ns to below the 5 ns clock target, converting
+a negative slack of -9.83 ns into a positive slack of +2.47 ns.
+
+Initial STA analysis showed severe setup timing violations with a worst
+negative slack (WNS) of -9.83 ns across multiple corners. The critical
+path contained a long combinational chain consisting of addition,
+multiplication, and XOR operations.
+
+Pipeline registers were inserted between arithmetic stages to break
+the critical path. After pipelining, the design achieved positive
+timing slack (+2.47 ns) with zero setup violations across all corners.
+
 # Timing Closure Pipeline – Physical Design Project
 
 This project demonstrates timing analysis and timing closure using the OpenLane physical design flow.
