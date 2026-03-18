@@ -99,14 +99,6 @@ tns 0.00
 	•	High fanout detection not implemented (OpenROAD API limitation)
 	•	Depends on availability of .odb, .lib, and .sdc
 
-⸻
-
-## Future Improvements
-	•	Export results to CSV
-	•	Extract critical path details automatically
-	•	Add high fanout net detection
-	•	Integrate analyzer into OpenLane flow
-	•	Add multi-corner timing support
 
 ⸻
 
