@@ -1,0 +1,11 @@
+===== PD ANALYZER =====
+
+Total Cells : 63143
+Flops       : 1592
+Total Nets  : 7082
+
+Timing Metrics:
+worst slack 3.84
+tns 0.00
+
+========================
