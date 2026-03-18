@@ -1,0 +1,18 @@
+openroad
+
+read_db <path_to_odb>
+read_liberty <path_to_lib>
+read_sdc <path_to_sdc>
+set_propagated_clock [all_clocks]
+
+source scripts/pd_analyzer.tcl
+
+
+## Example
+
+read_db /Users/rahulnautiyal/openlane2/my_first_chip/runs/RUN_2026-03-12_11-27-02/final/odb/soc_top.odb
+
+read_liberty /Users/rahulnautiyal/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130B/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+
+read_sdc /Users/rahulnautiyal/openlane2/my_first_chip/Physical-Design-Projects/picorv32-openlane-physical-design/runs/RUN_2026-03-12_11-27-02/final/sdc/soc_top.sdc
